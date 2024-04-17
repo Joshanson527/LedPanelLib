@@ -13,5 +13,6 @@ init(); // Initializes the LED panel
 setPlateRGB(intArray[]); // Fills the panel with a color. Takes a 3 element array of integers containing the red, green, and blue values from 0-255
 setPlateHSV(intArray[]); // Does the same thing as setPlateRGB, but takes hue, saturation, and value instead
 drawLineRGB(x0, y0, x1, y1, intArray[]); // Takes the endpoints of a line, and the RGB color value the same way as setPlateRGB
-drawLineHSV(x0, y0, x1, y1, intArray[]); // Does the same thing as drawLineRGb, but takes hue, saturation, and value instead
+drawLineHSV(x0, y0, x1, y1, intArray[]); // Does the same thing as drawLineRGB, but takes hue, saturation, and value instead
+rainbow(full, speed, x0, y0, x1, y1); // Draws rainbow effect on LED panel, see Led.java for documentation
 ```
